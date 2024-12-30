@@ -21,12 +21,20 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/images",
+                "output": "/assets/images"
               }
+            
             ],
             "styles": [
+              "src/assets/css/templatemo-softy-pinko.css",
               "src/styles.css"
             ],
             "scripts": []

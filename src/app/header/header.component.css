@@ -1,0 +1,12 @@
+header {
+    padding: 10px 0;
+    font-weight: 300;
+  }
+  .logo img {
+    max-height: 50px;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  

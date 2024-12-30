@@ -1,0 +1,97 @@
+/* General Section Styles */
+#work-process {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background for the section */
+}
+
+#work-process .mini-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title and Paragraph Styling */
+#work-process .info {
+    text-align: center;
+}
+
+#work-process .info h1 {
+    font-size: 2.5rem;
+    color: var(--dark); /* Using the --dark variable for text */
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-left: 10px;
+}
+
+#work-process .info p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.6;
+    margin-right: 150px;
+    margin-left: -50px;
+}
+
+/* Mini Box Styling */
+#work-process .row {
+    display: flex;
+    justify-content: center; /* Center all mini-boxes horizontally */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between boxes */
+}
+
+#work-process .mini-box {
+    display: block;
+    text-align: center;
+    background: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Set fixed width for uniformity */
+}
+
+#work-process .mini-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Mini Box Icon */
+#work-process .mini-box i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#work-process .mini-box i img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Mini Box Title and Description */
+#work-process .mini-box strong {
+    display: block;
+    font-size: 1.25rem;
+    color: var(--primary); /* Using primary color for titles */
+    margin-bottom: 5px;
+}
+
+#work-process .mini-box span {
+    font-size: 0.9rem;
+    color: var(--gray-dark); /* Subtle color for description */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #work-process .mini-box {
+        width: 90%; /* Full width for smaller screens */
+        margin: 0 auto; /* Center the mini-box on smaller screens */
+    }
+
+    #work-process .info h1 {
+        font-size: 2rem;
+    }
+
+    #work-process .info p {
+        font-size: 0.9rem;
+    }
+}

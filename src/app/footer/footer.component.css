@@ -1,0 +1,25 @@
+footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+ul.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.social li {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50%; /* This would make a circular background */
+  background-color: transparent; /* Remove the pink background */
+}
+
+ul.social li img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Ensure height matches the width to make the image square */
+  border-radius: 50%; /* Makes the image appear circular */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
