@@ -25,4 +25,5 @@ export class LoginComponent {
     // Logic for Login action
     console.log("Login button clicked");
   }
+  
 }
